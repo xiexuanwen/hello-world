@@ -1,0 +1,18 @@
+{
+  "name": "kids-points-backend",
+  "version": "1.0.0",
+  "description": "育儿积分系统后端",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "better-sqlite3": "^9.4.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}

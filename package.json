@@ -1,0 +1,17 @@
+{
+  "name": "kids-points-system",
+  "version": "1.0.0",
+  "description": "育儿积分制教育系统 - 让孩子通过完成任务和游戏获得积分，兑换奖励！",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "keywords": ["kids", "education", "points", "game", "parenting"],
+  "author": "",
+  "license": "MIT"
+}
